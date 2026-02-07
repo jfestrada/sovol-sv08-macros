@@ -182,6 +182,8 @@ The printer uses TMC2209 drivers with the following setup:
 - **Hotend fan**: Turns on at 45°C
 - **CPU fan**: PID controlled, target 60°C
 
+> **Note**: For information about the low-profile mainboard fan mount used in this configuration, see the [Printables article](https://www.printables.com/model/1048947-low-profile-mainboard-fan-mount-for-sovol-sv08).
+
 ### File Paths
 
 Ensure these paths exist and are correct:
@@ -281,6 +283,10 @@ After installation, restart Klipper and verify:
 This macro collection draws inspiration and best practices from:
 - **RatOS Community**: Load/unload filament macros, homing routines, and shell script implementations
 - Klipper documentation and community contributions
+
+### Hardware References
+
+- **Low-Profile Mainboard Fan Mount**: [Printables - Low Profile Mainboard Fan Mount for Sovol SV08](https://www.printables.com/model/1048947-low-profile-mainboard-fan-mount-for-sovol-sv08)
 
 For more information about RatOS and its community resources:
 - [RatOS GitHub](https://github.com/Rat-OS/RatOS)
